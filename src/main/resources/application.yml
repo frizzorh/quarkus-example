@@ -1,0 +1,18 @@
+display:
+  mach: 3
+  unit:
+    name: "mph"
+    factor: 2.23694
+quarkus:
+  application:
+    name: demo-cnh
+    version: 0.1
+  datasource:
+    db-kind: postgresql
+    username: 'postgres'
+    password: 'admin'
+    jdbc:
+      url : "jdbc:postgresql://localhost:5432/postgres"
+  hibernate-orm:
+    database:
+      generation: update
